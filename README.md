@@ -1,6 +1,6 @@
 # Architect theme
 
-This is a [Jekyll][1] theme that is an adaptation of [@jasonlong][2]'s [Architect theme][7] on [GitHub Pages][3].
+This is a [Jekyll][1] theme that is an adaptation of [@jasonlong][2]'s [Architect theme][4] on [GitHub Pages][3].
 
 This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](http://pages.github.com/).
 
@@ -14,16 +14,12 @@ Install Jekyll in your system
 $ gem install jekyll # use sudo if your system requires it
 ```
 
-Download the theme
-
-```
-$ wget http://github.com/pietromenna/architect-theme/archive/master.zip
-```
+Download the theme @ http://github.com/pietromenna/architect-theme/archive/jekyll.zip
 
 Unzip it and use it as a regular jekyll folder.
 
 ```
-$ unzip master.zip
+$ unzip jekyll.zip
 ```
 
 Use it!
@@ -41,3 +37,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 [1]: http://jekyllrb.com
 [2]: https://github.com/jasonlong
 [3]: http://pages.github.com/
+[4]: http://github.com/jasonlong/architect-theme
