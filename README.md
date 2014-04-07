@@ -14,12 +14,12 @@ Install Jekyll in your system
 $ gem install jekyll # use sudo if your system requires it
 ```
 
-Download the theme @ http://github.com/pietromenna/architect-theme/archive/jekyll.zip
+Download the theme @ http://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
 
 Unzip it and use it as a regular jekyll folder.
 
 ```
-$ unzip jekyll.zip
+$ unzip master.zip
 ```
 
 Use it!
