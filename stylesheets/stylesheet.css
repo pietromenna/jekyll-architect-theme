@@ -192,12 +192,11 @@ ul, ol, dl {
 /* COMMON STYLES */
 
 hr {
-  height: 1px;
-  line-height: 1px;
+  height: 0;
   margin-top: 1em;
-  padding-bottom: 1em;
-  border: none;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  margin-bottom: 1em;
+  border: 0;
+  border-top: solid 1px #ddd;
 }
 
 table {
