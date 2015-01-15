@@ -725,15 +725,15 @@ blockquote {
 }
 
 ul {
-  padding-left: 20px;
-  list-style: disc;
   list-style-position: inside;
+  list-style: disc;
+  padding-left: 20px;
 }
 
 ol {
-  padding-left: 3px;
-  list-style: disc;
   list-style-position: inside;
+  list-style: decimal;
+  padding-left: 3px;
 }
 
 dl dd {
@@ -878,5 +878,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
-
