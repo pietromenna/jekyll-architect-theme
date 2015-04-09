@@ -32,7 +32,7 @@ For more details read about [Jekyll][1] on its web page.
 
 # License
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
 
 [1]: http://jekyllrb.com
 [2]: https://github.com/jasonlong
