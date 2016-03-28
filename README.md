@@ -8,18 +8,24 @@ This is the raw HTML and styles that are used for the *Architect* theme on [GitH
 
 # How to use it?
 
-Install Jekyll in your system
-
-```
-$ gem install jekyll # use sudo if your system requires it
-```
-
 Download the theme @ http://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
 
 Unzip it and use it as a regular jekyll folder.
 
 ```
 $ unzip master.zip
+```
+
+Get inside the newly extracted folder
+
+```
+$ cd jekyll-architect-theme
+```
+
+Install the dependencies
+
+```
+$ bundle install
 ```
 
 Use it!
