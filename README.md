@@ -34,6 +34,20 @@ Use it!
 $ jekyll serve
 ```
 
+# Setup
+
+Some important configuration can be done in file `_config.yml`. Please, chec the Setup setion in this file.
+
+
+## baseurl
+
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
+
+In the case above the baseurl should be set to "/jekyll-cayman-theme".
+
+In the case the site sits in the root, you can leave `baseurl` as empty "".
+
+
 For more details read about [Jekyll][1] on its web page.
 
 # License
