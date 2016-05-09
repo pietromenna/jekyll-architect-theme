@@ -8,4 +8,4 @@ gems:
   - jekyll-paginate
 
 #Others
-markdown: redcarpet
+markdown: kramdown
