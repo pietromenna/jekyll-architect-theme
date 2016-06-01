@@ -537,10 +537,11 @@ header a.button {
 
 }
 aside a.left {
-    display: block;
-    text-decoration: none;
-    padding: 2px 1px 1px 16px;
-    font-size: 15px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  display: block;
+  text-decoration: none;
+  padding: 2px 1px 1px 16px;
+  font-size: 15px;
 }
 
 code, pre {
