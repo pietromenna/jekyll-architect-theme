@@ -544,7 +544,7 @@ aside a.button {
   font-size: 21px;
   background: transparent;
 }
-aside a.butto::before {
+aside a.button::before {
   display: block;
   width: 138px;
   padding-left: 64px;
