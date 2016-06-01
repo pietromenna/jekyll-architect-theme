@@ -544,7 +544,7 @@ aside a.button {
   font-size: 21px;
   background: transparent;
 }
-aside a.button::before {
+aside a.button:hover {
   display: block;
   width: 138px;
   padding-left: 64px;
