@@ -447,6 +447,12 @@ a:hover {
   color: #2268b2;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 header {
   padding-top: 40px;
   padding-bottom: 40px;
