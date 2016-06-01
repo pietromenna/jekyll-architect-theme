@@ -219,7 +219,7 @@ hr {
  */
 
 pre {
-  overflow: auto;
+  overflow: auto; buto
 }
 
 /**
@@ -542,7 +542,7 @@ aside a.button {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  background: blue;
 }
 
 code, pre {
