@@ -5,7 +5,7 @@ date:   2014-04-06 15:40:56
 categories: sadap
 ---
 
-Y [Jekyll's GitHub repo][jekyll-gh].
+Cara sadap BBM di handphone Android dan Iphone
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
