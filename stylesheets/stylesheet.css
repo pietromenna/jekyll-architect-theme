@@ -536,7 +536,7 @@ header a.button {
   right: 0;
 
 }
-aside a.button {
+aside a.left {
     display: block;
     text-decoration: none;
     padding: 2px 1px 1px 16px;
