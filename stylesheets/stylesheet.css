@@ -537,12 +537,10 @@ header a.button {
 
 }
 aside a.button {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background: #2e7bcf;
+    display: block;
+    text-decoration: none;
+    padding: 2px 1px 1px 16px;
+    font-size: 15px;
 }
 
 code, pre {
