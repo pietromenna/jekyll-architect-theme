@@ -541,6 +541,7 @@ aside a.left {
   display: block;
   text-decoration: none;
   font-size: 15px;
+  line-height: 1.42857143;
   border-bottom: dotted 1px #a5d8c7;
 }
 
