@@ -542,7 +542,7 @@ aside a.left {
   text-decoration: none;
   font-size: 15px;
   line-height: 2;
-  padding-bottom: 2cm;
+  margin-bottom: 20px;
   border-bottom: dotted 1px #2e7bcf;
 }
 
