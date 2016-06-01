@@ -464,7 +464,6 @@ header h1 {
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
-  right: 0;
 }
 
 header h2 {
@@ -534,7 +533,8 @@ a.button small {
 header a.button {
   position: absolute;
   top: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  right: 0;
+
 }
 aside a.button {
   display: block;
