@@ -540,8 +540,8 @@ aside a.left {
   font-family: "Segoe UI",Arial,sans-serif;
   display: block;
   text-decoration: none;
-  padding: 2px 1px 1px 16px;
   font-size: 15px;
+  border-bottom: dotted 1px #a5d8c7;
 }
 
 code, pre {
