@@ -428,8 +428,8 @@ th {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 17px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
   color: #666;
@@ -456,7 +456,7 @@ img {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header.jpg) 0 0;
   border-bottom: solid 1px #275da1;
 }
@@ -485,7 +485,7 @@ header h2 {
 
 .inner {
   position: relative;
-  width: 1040px;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -496,7 +496,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 790px;
+  width: 690px;
 }
 
 #main-content img {
@@ -527,7 +527,7 @@ a.button {
   height: 58px;
   padding-top: 22px;
   padding-right: 68px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 23px;
   line-height: 1.2;
   color: #fff;
@@ -543,7 +543,7 @@ header a.button {
 
 }
 aside a.left {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "Segoe UI",Arial,sans-serif;
   display: block;
   text-decoration: none;
   font-size: 15px;
@@ -621,7 +621,7 @@ form {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
@@ -638,7 +638,7 @@ form {
 
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
   color: #474747;
@@ -654,7 +654,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
@@ -670,7 +670,7 @@ form {
 
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -686,7 +686,7 @@ h4:before {
 
 #main-content h5 {
   margin-bottom: 8px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
   text-indent: 3px;
@@ -700,7 +700,7 @@ h5:before {
 
 #main-content h6 {
   margin-bottom: 8px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
   text-indent: 3px;
@@ -741,11 +741,6 @@ ol {
   list-style-position: inside;
   list-style: decimal;
   padding-left: 3px;
-}
-
-li, section[role=main]>article li {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
 }
 
 dl dd {
