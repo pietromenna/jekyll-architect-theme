@@ -882,10 +882,13 @@ dl dd {
 }
 
 footer {
+   width: 1040px;
    background: #fafafa;
+   margin: 0 auto;
    height: 50px;
    text-align: center;
    padding-top: 20px;
+   position: relative;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
