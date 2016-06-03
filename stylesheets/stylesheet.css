@@ -894,13 +894,13 @@ footer {
 
 footer a {
     color: #cbd2d6;
-    color: rgba(0,39,59,.2); 
-    padding: 0 0 0 25px;
+    color: rgba(0, 0, 0, 0.31);
+    padding: 0 0 0 10px;
     font-weight: 700;
 }
 
 credit {
-  color #cbd2d6;
+  color #565555;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
