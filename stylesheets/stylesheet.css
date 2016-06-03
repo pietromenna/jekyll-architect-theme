@@ -899,6 +899,9 @@ footer a {
     font-weight: 700;
 }
 
+credit {
+  color #cbd2d6;
+}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
