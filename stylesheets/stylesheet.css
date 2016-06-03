@@ -894,7 +894,7 @@ footer {
 
 #footer a {
     color: #cbd2d6;
-    color: rgba(0,39,59,.2);
+    color: rgba(0,39,59,.2); 
     padding: 0 0 0 25px;
     font-weight: 700;
 }
