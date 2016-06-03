@@ -592,7 +592,7 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-color: #eaedee -moz-use-text-color rgba(0,39,59,.08);;
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
