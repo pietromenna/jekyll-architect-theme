@@ -892,6 +892,14 @@ footer {
    position: relative;
 }
 
+#footer a {
+    color: #cbd2d6;
+    color: rgba(0,39,59,.2);
+    padding: 0 0 0 25px;
+    font-weight: 700;
+}
+
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
