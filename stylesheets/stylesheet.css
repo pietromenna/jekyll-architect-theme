@@ -872,6 +872,7 @@ dl dd {
 .notif {
     background: #FFFF00;
     border: 10px solid #C00000;
+    border-radius:10px;
     color: black;
 }
 
