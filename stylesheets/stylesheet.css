@@ -874,6 +874,7 @@ dl dd {
     border: 1px solid #ebccd1;;
     border-radius:5px;
     color: #a94442;
+    padding: 15px;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
