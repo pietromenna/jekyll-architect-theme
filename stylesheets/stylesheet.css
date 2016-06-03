@@ -870,10 +870,10 @@ dl dd {
 }
 
 .notif {
-    background: #f2dede;;
-    border: 1px solid #ebccd1;;
+    background: #d9edf7;
+    border: 1px solid #bce8f1;
     border-radius:5px;
-    color: #a94442;
+    color: #31708f;
     padding: 15px;
 }
 
