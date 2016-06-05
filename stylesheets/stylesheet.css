@@ -904,7 +904,12 @@ credit {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .price_block {width: 25%;}
+  .price_block {border-right: 1px solid transparent; border-bottom: 0 none;}
+  .price_block:last-child {border-right: 0 none;}
+  .price_block:hover {border: 0 none;}
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
@@ -912,4 +917,98 @@ credit {
   .price_block:nth-child(odd) {border-right: 1px solid transparent;}
   .price_block:nth-child(3) {clear: both;}
   .price_block:nth-child(odd):hover {border: 0 none;}
+}
+
+.pricing_table {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 75%; 
+    max-width: 800px; 
+    padding-top: 10px;
+    margin-top: 100px;
+}
+ 
+.price_block {
+    width: 100%; 
+    color: #fff; 
+    float: left; 
+    list-style-type: none; 
+    transition: all 0.25s; 
+    position: relative; 
+    box-sizing: border-box;
+     
+    margin-bottom: 10px; 
+    border-bottom: 1px solid transparent; 
+}
+
+.pricing_table h3 {
+    text-transform: uppercase; 
+    padding: 5px 0; 
+    background: #333; 
+    margin: -10px 0 1px 0;
+}
+
+
+.price {
+    display: table; 
+    background: #444; 
+    width: 100%; 
+    height: 70px; 
+}
+.price_figure {
+    font-size: 24px; 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    display: table-cell;
+}
+.price_number {
+    font-weight: bold; 
+    display: block;
+}
+.price_tenure {
+    font-size: 11px; 
+}
+
+.features {
+    background: #DEF0F4; 
+    color: #000;
+}
+.features li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc; 
+    font-size: 11px; 
+    list-style-type: none;
+}
+
+.footer {
+    padding: 15px; 
+    background: #DEF0F4;
+}
+.action_button {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    background: linear-gradient(#666, #333); 
+    padding: 5px 20px; 
+    font-size: 11px; 
+    text-transform: uppercase;
+}
+
+.price_block:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.04) translateY(-5px); 
+    z-index: 1; 
+    border-bottom: 0 none;
+}
+.price_block:hover .price {
+    background:linear-gradient(#DB7224, #F9B84A); 
+    box-shadow: inset 0 0 45px 1px #DB7224;
+}
+.price_block:hover h3 {
+    background: #222;
+}
+.price_block:hover .action_button {
+    background: linear-gradient(#F9B84A, #DB7224); 
 }
