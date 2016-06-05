@@ -6,3 +6,7 @@ baseurl: '/'
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+
+compress_html:
+  comments: ["<!-- ", " -->"]
