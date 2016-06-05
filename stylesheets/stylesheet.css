@@ -907,4 +907,9 @@ credit {
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+@media only screen and (max-width: 479px) {
+  .price_block {width: 50%;}
+  .price_block:nth-child(odd) {border-right: 1px solid transparent;}
+  .price_block:nth-child(3) {clear: both;}
+  .price_block:nth-child(odd):hover {border: 0 none;}
+}
