@@ -913,6 +913,8 @@ credit {
 	width: 100%;
 	margin: 100px auto;
 	font-family: 'Open Sans', Helvetica;
+	display: block;
+        text-align: center;
 }
 
 .price_card{
