@@ -917,7 +917,7 @@ credit {
 
 .price_card{
 	width: 300px;
-	background: rgb(255, 255, 255);
+	background: rgba(226, 226, 226, 0.35);
 	display: inline-table;
 	top: 0;
 }
