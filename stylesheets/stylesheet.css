@@ -627,7 +627,7 @@ form {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'PT Sans', sans-serif;
-  font-size: 2.8em;
+  font-size: 2em;
   font-weight: normal;
   color: #474747;
   text-indent: 6px;
@@ -644,7 +644,7 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: 'PT Sans', sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
@@ -652,7 +652,7 @@ form {
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
-  content: "//";
+  content: "";
   color: #9ddcff;
 }
 
