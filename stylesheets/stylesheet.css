@@ -940,7 +940,7 @@ credit {
 	font-weight: 300;
 	display: block;
 	text-align: center;
-	padding: 5px 0 0px;
+	padding: 0px 0 0px;
 }
 .name{
 	width: 100%;
@@ -948,7 +948,7 @@ credit {
 	font-weight: 700;
 	display: block;
 	text-align: center;
-	padding: 0 0 30px;
+	padding: 0 0 0px;
 }
 .features{
 	list-style: none;
@@ -984,10 +984,7 @@ button{
 	background: rgb(245, 166, 35);
 }
 .bravo button{
-	background: rgb(246, 77, 77);
-}
-.charlie button{
-	background: rgb(48, 219, 181);
+	background: rgb(25, 140, 221);
 }
 .tip{
 	font-family: 'Indie Flower';
