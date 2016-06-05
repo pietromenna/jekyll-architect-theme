@@ -910,7 +910,7 @@ credit {
 @media only screen and (max-width: 479px) { }
 
 #pricing{
-	width: 989px;
+	width: 600px;
 	margin: 100px auto;
 	font-family: 'Open Sans', Helvetica;
 }
@@ -933,9 +933,7 @@ credit {
 .bravo .header{
 	background: rgb(246, 77, 77);
 }
-.charlie .header{
-	background: rgb(48, 219, 181);
-}
+
 .price{
 	width: 100%;
 	font-size: 60px;
