@@ -910,7 +910,7 @@ credit {
 @media only screen and (max-width: 479px) { }
 
 #pricing{
-	width: 645px;
+	width: 100%;
 	margin: 100px auto;
 	font-family: 'Open Sans', Helvetica;
 }
@@ -936,7 +936,7 @@ credit {
 
 .price{
 	width: 100%;
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: 300;
 	display: block;
 	text-align: center;
