@@ -918,7 +918,7 @@ credit {
 	top: 0;
 }
 .price_card:not(:last-child){
-	margin-right: 0px;
+	margin-bottom: 10px;
 }
 .header{
 	color: rgb(255, 255, 255);
