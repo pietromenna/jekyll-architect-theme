@@ -297,6 +297,11 @@ input, label, select {
     font-size: 16px;
 }
 
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    margin-right: 7.2px;
+}
+
 button,
 html input[type="button"], /* 1 */
 input[type="reset"],
