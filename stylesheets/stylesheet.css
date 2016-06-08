@@ -287,6 +287,16 @@ select {
  *    `input` and others.
  */
 
+label {
+    font-weight: 600;
+    margin-bottom: 7.2px;
+}
+input, label, select {
+    display: block;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+}
+
 button,
 html input[type="button"], /* 1 */
 input[type="reset"],
