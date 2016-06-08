@@ -638,7 +638,6 @@ form {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #9ddcff;
-  content: "/";
 }
 
 #main-content h2 {
@@ -652,7 +651,6 @@ form {
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
-  content: "//";
   color: #9ddcff;
 }
 
@@ -669,7 +667,6 @@ form {
 #main-content h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
-  content: "///";
   color: #9ddcff;
 }
 
@@ -685,8 +682,7 @@ form {
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "////";
-  color: #9ddcff;
+   color: #9ddcff;
 }
 
 #main-content h5 {
@@ -699,7 +695,6 @@ h4:before {
 h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
-  content: "/////";
   color: #9ddcff;
 }
 
@@ -713,7 +708,6 @@ h5:before {
 h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
-  content: "//////";
   color: #9ddcff;
 }
 
