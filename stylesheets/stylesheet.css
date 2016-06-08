@@ -321,6 +321,7 @@ input::-moz-focus-inner {
 
 input {
   line-height: normal;
+  margin-bottom: 20px;
 }
 
 /**
