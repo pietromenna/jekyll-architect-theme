@@ -893,7 +893,7 @@ dl dd {
 }
 
 footer {
-   width: 1040px;
+   width: 100%px;
    background: #fafafa;
    margin: 0 auto;
    height: 80px;
