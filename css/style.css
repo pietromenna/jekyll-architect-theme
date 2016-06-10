@@ -1004,3 +1004,11 @@ button{
 	color: rgb(117, 117, 117);
 	margin: 10px 5px;
 }
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  #main-content h2 {
+  font-size: 11px;
+}
+
