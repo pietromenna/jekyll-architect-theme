@@ -7,6 +7,9 @@ layout: compress
   <head>
     <meta charset='utf-8'>
     {% seo %}
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='{{ site.baseurl }}images/favicon.ico' rel='icon' type='image/x-icon'/>
