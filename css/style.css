@@ -998,6 +998,10 @@ button{
 .bravo button{
 	background: rgb(25, 140, 221);
 }
+.bubar button{
+	background: rgb(25, 140, 221);
+	text-align:center;
+}
 .tip{
 	font-family: 'Indie Flower';
 	position: absolute;
