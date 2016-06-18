@@ -1,7 +1,8 @@
 name: SUPERSADAP.COM
 markdown: redcarpet
 baseurl: '/'
-
+url: https://supersadap.com
+enforce_ssl: supersadap.com
 
 gems:
   - jekyll-sitemap
