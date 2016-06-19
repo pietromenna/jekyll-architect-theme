@@ -26,18 +26,14 @@ layout: compress
     <![endif]-->
 
     <title> {{ page.title }} </title>
-     <script type="text/javascript">
-      //<![CDATA[
-       $(window).bind("load resize", function(){
-       var url = location.protocol+'//'+location.host+location.pathname;
-       var containercm_width = $('#container-commentfb').width(); 
-       $('#container-commentfb').html('<div class="fb-comments" ' +
-       'data-href="'+url+'"' +
-       ' width="' + containercm_width + '" data-num-posts="10"></div>');
-       FB.XFBML.parse( ); 
-       });
-     //]]>
-     </script>
+     <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.6&appId=547297888787869";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   </head>
   <script id="dsq-count-scr" src="//supersadap.disqus.com/count.js" async></script>
   <body>
@@ -56,9 +52,7 @@ layout: compress
           <article class="post-content" itemprop="articleBody">
            {{ content }}
           </article>
-          <div id='fb-root'/>
-<script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
-<div id='container-commentfb' style='width: 100%;'><fb:comments expr:href='data:post.url' num_posts='10' width='650'/></div>
+          <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="20"></div>
         </section>
 
         <aside id="sidebar">
