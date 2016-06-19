@@ -3,6 +3,14 @@ layout: default
 title: Halaman Pemesanan
 ---
 
+<script>
+$(document).ready(function() {
+    var $sub = $("#_subject");
+    $("#email").on("input", function() {
+        $sub.val("Blog Contact Form (" + $(this).val() + ")");
+    });
+});
+</script>
 
 <form action="https://formspree.io/ss.sadap@gmail.com" method="POST">
   <input type="hidden" name="_next" value="{{ base.url }}">
