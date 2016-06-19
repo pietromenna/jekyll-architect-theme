@@ -26,6 +26,18 @@ layout: compress
     <![endif]-->
 
     <title> {{ page.title }} </title>
+     <script type="text/javascript">
+      //<![CDATA[
+       $(window).bind("load resize", function(){
+       var url = location.protocol+'//'+location.host+location.pathname;
+       var containercm_width = $('#container-commentfb').width(); 
+       $('#container-commentfb').html('<div class="fb-comments" ' +
+       'data-href="'+url+'"' +
+       ' width="' + containercm_width + '" data-num-posts="10"></div>');
+       FB.XFBML.parse( ); 
+       });
+     //]]>
+     </script>
   </head>
   <script id="dsq-count-scr" src="//supersadap.disqus.com/count.js" async></script>
   <body>
@@ -44,9 +56,9 @@ layout: compress
           <article class="post-content" itemprop="articleBody">
            {{ content }}
           </article>
-          {% if page.comments %}
-         <div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="false"></div>
-{% endif %}
+          <div id='fb-root'/>
+<script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
+<div id='container-commentfb' style='width: 100%;'><fb:comments expr:href='data:post.url' num_posts='10' width='650'/></div>
         </section>
 
         <aside id="sidebar">
@@ -82,12 +94,5 @@ layout: compress
       <span class="credit">Web is maintained by </span><a href="#">Supersadap.com</a>
     </footer>
   </body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.6";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  
 </html>
