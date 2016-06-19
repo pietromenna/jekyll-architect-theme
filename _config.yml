@@ -7,7 +7,6 @@ enforce_ssl: supersadap.com
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
 
 
 compress_html:
