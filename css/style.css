@@ -308,7 +308,7 @@ input[type="text"], input[type="name"], input[type="email"], input[type="number"
 }
 textarea {
 	width: 500px;
-	height:300px;
+	height:150px;
 }
 
 button,
