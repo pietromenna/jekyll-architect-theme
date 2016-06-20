@@ -1032,48 +1032,7 @@ button{
   #main-content h2 {
   font-size: 15px;
 }
-.ajg-social-icons {
-font-size: 18px;
-font-size: 1.8em;
-}
- 
-.ajg-social-icons a {
-text-decoration:none;
-color:#fff;
-}
- 
-.ajg-social-icons span {
-display:block;
-background-color: #000;
-/* You could make them round by changing the value to 50% */
-border-radius: 3px;
-}
- 
-.ajg-social-icons .rsshov:hover {
-background-color: #FF6600;
-color: #fff;
-}
-.ajg-social-icons .googhov:hover {
-background-color: #F90101;
-color: #fff;
-}
- 
-.ajg-social-icons .fbhov:hover {
-background-color: #3B5998;
-color: #fff;
-}
- 
-.ajg-social-icons .youtubehov:hover {
-background-color: #e52d27;
-color: #fff;
-}
- 
-.ajg-social-icons .pinhov:hover {
-background-color: #C92228;
-color: #fff;
-}
- 
-.ajg-social-icons .twithover:hover {
-background-color: #4099FF;
-color: #fff;
+list-inline {
+    margin: 0;
+    padding: 0;
 }
