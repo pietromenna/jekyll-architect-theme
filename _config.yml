@@ -13,3 +13,6 @@ gems:
 
 compress_html:
   comments: ["<!-- ", " -->"]
+
+facebook:
+  app_id: 547297888787869
