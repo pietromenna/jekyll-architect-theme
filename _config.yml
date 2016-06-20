@@ -1,7 +1,7 @@
 name: SUPERSADAP.COM
 description: Sadap Berbagai Handphone Android, Blackberry, Nokia, Iphone dan Fitur Sadap BBM SMS Panggilan Suara, Lokasi dan Whatsapp
 markdown: redcarpet
-baseurl: '/'
+baseurl: ''
 url: https://supersadap.com
 enforce_ssl: supersadap.com
 
