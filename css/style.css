@@ -1032,8 +1032,11 @@ button{
   #main-content h2 {
   font-size: 15px;
 }
-list-inline, ul {
+.list-inline ul {
     margin: 0;
     padding: 0;
-    display:block;
+    display:none;
+}
+.text-center {
+    text-align: center;
 }
