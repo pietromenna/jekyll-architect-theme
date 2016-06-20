@@ -1035,4 +1035,5 @@ button{
 list-inline {
     margin: 0;
     padding: 0;
+    display:block;
 }
