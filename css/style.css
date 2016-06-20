@@ -1032,13 +1032,13 @@ button{
   #main-content h2 {
   font-size: 15px;
 }
-.list-inline ul {
+#list-inline ul {
     margin: 0;
     padding: 0;
     display:none;
     list-style: none;
 
 }
-.text-center {
+#text-center {
     text-align: center;
 }
