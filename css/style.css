@@ -1035,7 +1035,7 @@ button{
 ul #list-inline li {
     margin: 0;
     padding: 0;
-    display:none;
+    display:inline-block;
     list-style: none;
 
 }
