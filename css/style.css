@@ -1032,7 +1032,7 @@ button{
   #main-content h2 {
   font-size: 15px;
 }
-list-inline {
+list-inline, ul {
     margin: 0;
     padding: 0;
     display:block;
