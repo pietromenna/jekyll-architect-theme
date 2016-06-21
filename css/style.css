@@ -1037,10 +1037,6 @@ button{
 color: #47bff5;
 text-decoration: none;
 }
-.github-button > a:hover {
-color: #333;
-text-decoration: none;
-}
 .linkedin-button > a:hover {
 color: #3893c4;
 text-decoration: none;
