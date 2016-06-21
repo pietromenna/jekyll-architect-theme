@@ -758,10 +758,7 @@ blockquote {
 
 ul {
   list-style-position: inside;
-   margin: 0;
-   padding: 0;
-   display:inline-block;
-   list-style: none;
+  list-style: disc;
   padding-left: 20px;
 }
 
@@ -1036,3 +1033,31 @@ button{
   font-size: 15px;
 }
 
+.twitter-button > a:hover {
+color: #47bff5;
+text-decoration: none;
+}
+.github-button > a:hover {
+color: #333;
+text-decoration: none;
+}
+.linkedin-button > a:hover {
+color: #3893c4;
+text-decoration: none;
+}
+.instagram-button > a:hover {
+color: #3e6c93;
+text-decoration: none;
+}
+.google-plus-button > a:hover {
+color: #df5138;
+text-decoration: none;
+}
+.stack-overflow-button > a:hover {
+color: #fe8224;
+text-decoration: none;
+}
+a:active {
+color: #000;
+text-decoration: none;
+}
