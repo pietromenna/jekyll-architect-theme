@@ -1057,3 +1057,92 @@ a:active {
 color: #000;
 text-decoration: none;
 }
+.breadcrumb {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #f1f2ed;
+  border-radius: 0.25rem;
+}
+
+.breadcrumb::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.breadcrumb-item {
+  float: left;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #818a91;
+  content: "/";
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #818a91;
+}
+/*if you already use Twitter, you do not need these css lines above, cause they already in Twitter Bootstrap */
+
+/* Additions: imgage integration */
+
+.breadcrumbs {
+  padding-left: 0;
+  margin-bottom: 1rem;
+  background-color: #f1f2ed;
+  border-radius: 0.25rem;
+}
+
+.breadcrumbs::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.breadcrumbs .breadcrumb {
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  display: inline-block;
+}
+
+.breadcrumbs .breadcrumb-item {
+  font-size: 1.3em;
+}
+
+.breadcrumbs a.breadcrumb-item:after {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  content: "/";
+  text-decoration: none;
+}
+
+.breadcrumbs .icon:after {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #818a91;
+  content: "/";
+}
+
+.breadcrumbs .icon {
+  display: inline-block;
+}
+
+.breadcrumbs .icon svg {
+  height: 0.7rem;
+  width: 0.7rem;
+}
