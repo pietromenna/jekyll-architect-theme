@@ -758,7 +758,10 @@ blockquote {
 
 ul {
   list-style-position: inside;
-  list-style: disc;
+   margin: 0;
+   padding: 0;
+   display:inline-block;
+   list-style: none;
   padding-left: 20px;
 }
 
@@ -1032,13 +1035,4 @@ button{
   #main-content h2 {
   font-size: 15px;
 }
-ul #list-inline li {
-    margin: 0;
-    padding: 0;
-    display:inline-block;
-    list-style: none;
 
-}
-#text-center {
-    text-align: center;
-}
