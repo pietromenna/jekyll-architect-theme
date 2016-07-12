@@ -13,13 +13,13 @@ Download the theme @ http://github.com/pietromenna/jekyll-architect-theme/archiv
 Unzip it and use it as a regular jekyll folder.
 
 ```
-$ unzip master.zip
+$ unzip jekyll-architect-theme-master.zip
 ```
 
 Get inside the newly extracted folder
 
 ```
-$ cd jekyll-architect-theme
+$ cd jekyll-architect-theme-master
 ```
 
 Install the dependencies
