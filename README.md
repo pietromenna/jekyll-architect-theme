@@ -41,14 +41,24 @@ Some important configuration can be done in the file `_config.yml`. Please, chec
 
 ## baseurl
 
-`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-architect-theme
 
-In the case above the baseurl should be set to "/jekyll-cayman-theme".
+In the case above the baseurl should be set to "/jekyll-architect-theme".
 
 In the case the site sits in the root, you can leave `baseurl` as empty "".
 
 
 For more details read about [Jekyll][1] on its web page.
+
+# Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenn/jekyll-architect-theme.
+
+# Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 # License
 
