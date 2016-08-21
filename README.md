@@ -6,9 +6,31 @@ This is the raw HTML and styles that are used for the *Architect* theme on [GitH
 
 ![](http://cl.ly/image/1x0Q3213330G/content)
 
-# How to use it?
+# Getting Started
 
-Download the theme @ http://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
+## Prerequisites
+
+To install this theme, jekyll is required to be installed on your system. Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js
+
+Once you've installed the requirements, run this command in your terminal:
+
+```
+sudo gem install jekyll
+```
+
+You'll also need to install the bundler package:
+
+```
+sudo gem install bundler
+```
+
+## Downloading and Installing the theme
+
+Download the theme
+
+```
+http://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
+```
 
 Unzip it and use it as a regular jekyll folder.
 
