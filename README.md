@@ -15,13 +15,13 @@ To install this theme, jekyll is required to be installed on your system. Head o
 Once you've installed the requirements, run this command in your terminal:
 
 ```
-sudo gem install jekyll
+$ sudo gem install jekyll
 ```
 
 You'll also need to install the bundler package:
 
 ```
-sudo gem install bundler
+$ sudo gem install bundler
 ```
 
 ## Downloading and Installing the theme
