@@ -2,9 +2,9 @@
 
 This is a [Jekyll][1] theme that is an adaptation of [@jasonlong][2]'s [Architect theme][4] on [GitHub Pages][3].
 
-This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](http://pages.github.com/).
+This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](https://pages.github.com/).
 
-![](http://cl.ly/image/1x0Q3213330G/content)
+![](https://cl.ly/image/1x0Q3213330G/content)
 
 # Getting Started
 
@@ -29,7 +29,7 @@ $ sudo gem install bundler
 Download the theme
 
 ```
-http://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
+https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
 ```
 
 Unzip it and use it as a regular jekyll folder.
@@ -63,7 +63,7 @@ Some important configuration can be done in the file `_config.yml`. Please, chec
 
 ## baseurl
 
-`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-architect-theme
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: https://pietromenna.github.io/jekyll-architect-theme
 
 In the case above the baseurl should be set to "/jekyll-architect-theme".
 
@@ -86,7 +86,7 @@ You theme is setup just like a normal Jelyll site! To test your theme, run `bund
 
 This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
 
-[1]: http://jekyllrb.com
+[1]: https://jekyllrb.com
 [2]: https://github.com/jasonlong
 [3]: http://pages.github.com/
-[4]: http://github.com/jasonlong/architect-theme
+[4]: https://github.com/jasonlong/architect-theme
