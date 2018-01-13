@@ -74,7 +74,7 @@ For more details read about [Jekyll][1] on its web page.
 
 # Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenn/jekyll-architect-theme.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenna/jekyll-architect-theme.
 
 # Development
 
