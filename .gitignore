@@ -2,3 +2,4 @@ _site
 .bundle
 .sass-cache
 Gemfile.lock
+.jekyll-cache
